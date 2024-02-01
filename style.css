@@ -3,6 +3,8 @@
 
 :root {
   --default-font: 'Poppins', sans-serif;
+  --primary-color: #2374EE;
+  --hero-bg-color:#EBF2FF;
 }
 
 * {
@@ -30,4 +32,12 @@ header {
 .logo-text {
   font-weight: 700;
   font-size: 1.5rem;
+}
+
+/* Hero Styles*/
+.hero__top{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5rem;
+  background-color: var(--primary-color);
 }
